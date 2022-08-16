@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href={{ url_for("static", filename="css/styles.css")}}  rel="stylesheet" }>
+    <title>COMPSCI235: Lab Report 2</title>
+  </head>
+  <body>
+      <div id="header"><h1>[COMPSCI235] Lab 2 Report - Kelham Rawlinson</h1></div>
+      <h2>Welcome {{ name }}!</h2>
+      <h3>You got a {{mark}}!</h3>
+      <div>
+          <h3><strong>Notes - Git</strong></h3>
+          <p><strong>Commands</strong></p>
+          <ul>
+            <li>config: used to set up your username and email</li>
+            <li>clone: download a remote repository to your computer (becomes a local repository you can work on)</li>
+            <li>status: checks the working directory</li>
+            <li>pull: synchronise you local repository with the remote one</li>
+            <li>add -A: move all files to the staging area</li>
+            <li>commit -m "message": commit your changes to the local repository</li>
+            <li>push: move your changes to the remote repository</li>
+         </ul>
+          
+          <p><strong>Git ignore</strong></p>
+          <p>This is a kind of file that allows you to specify what files git should ignore. You probably dont want to keep track of files like compiled code or files created by a program during testing in your repositories and git ignore allows you to do this.</p>
+      </div>
+      
+  </body>
+</html>

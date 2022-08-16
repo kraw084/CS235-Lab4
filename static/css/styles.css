@@ -1,0 +1,29 @@
+*{
+    font-family: Andale Mono, monospace;
+}
+
+h1, h3{
+    font-weight: bold;
+}
+
+#header{
+    background-color: gainsboro;
+    margin: 0px;
+}
+
+table, th, td {
+    min-width: 30px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+html {
+    background-color: skyblue
+}
+
+div{
+    margin-bottom: 30px;
+    background-color: aliceblue;
+    padding: 15px;
+}
